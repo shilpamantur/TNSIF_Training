@@ -1,7 +1,6 @@
-package org.tnsif.acc.c2tc.oops;
+package org.tnsif.acc.c2tc.opps;
 
-class Human
-{
+class Human{
 	//variable
 	private String name;
 	private int age;
