@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.opps;
+package org.tnsif.acc.c2tc.oops;
 
 class Human{
 	//variable
