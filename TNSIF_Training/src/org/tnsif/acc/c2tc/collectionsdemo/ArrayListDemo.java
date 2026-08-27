@@ -30,7 +30,7 @@ public class ArrayListDemo {
 			System.out.println("Requested fruit is not prsent");
 		}
 		
-		
+		// Using Iterable
         Iterable<String> iterableFruits = fruits;
 
         System.out.println("Traversing using Iterable:"+fruits);
