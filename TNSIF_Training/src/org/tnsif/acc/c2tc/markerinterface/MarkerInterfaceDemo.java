@@ -2,18 +2,15 @@ package org.tnsif.acc.c2tc.markerinterface;
 
 public class MarkerInterfaceDemo {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Registration sushma = new Student();
+        Student s1 = new Student(101, "Siddesh", 85.5, "Java");
+        Student s2 = new Student(102, "Hema", 90.5, "Java");
 
-		Registration anil = new Student();
+        s1.display();
 
-		Object obj = new Object();
+        System.out.println();
 
-		if (obj instanceof Registration) {
-			System.out.println("Student is registered for the course");
-		} else {
-			System.out.println("Student is not registered for the course");
-		}
-	}
+        s2.display();
+    }
 }
