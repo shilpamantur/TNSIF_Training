@@ -1,6 +1,6 @@
 package org.tnsif.acc.c2tc.interfacedemo;
 
-public class Bike implements Vehicle {
+class Bike implements Vehicle {
 
     private String type;
 
