@@ -1,25 +1,40 @@
 package org.tnsif.acc.c2tc.markerinterface;
 
-import java.io.Serializable;
+public class Student implements Registration {
 
-public class Student implements Serializable {
+    private int id;
+    private String name;
+    private double fees;
+    private String course;
 
-    int rollNo;
-    String name;
-    double marks;
-    String course;
-
-    public Student(int rollNo, String name, double marks, String course) {
-        this.rollNo = rollNo;
+    // Parameterized constructor
+    public Student(int id, String name, double fees, String course) {
+        this.id = id;
         this.name = name;
-        this.marks = marks;
+        this.fees = fees;
         this.course = course;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getFees() {
+        return fees;
+    }
+
+    public String getCourse() {
+        return course;
+    }
+
     public void display() {
-        System.out.println("Roll No: " + rollNo);
-        System.out.println("Name: " + name);
-        System.out.println("Marks: " + marks);
+        System.out.println("Student ID: " + id);
+        System.out.println("Student Name: " + name);
+        System.out.println("Fees: " + fees);
         System.out.println("Course: " + course);
     }
 }
